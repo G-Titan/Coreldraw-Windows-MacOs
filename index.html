@@ -3,57 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WeBill - Cleanergy</title>
+    <title>WeBill™ - Webill Meter Reading</title>
     <link rel="stylesheet" href="./assets/style.css">
-    <script src="./function/script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>WeBill™ - Cleanergy</h1>
-    </header>
 
-    <main>
-        <!-- Login Form -->
-        <section id="login-section">
-            <h2>Login</h2>
-            <form id="login-form">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-                
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                
-                <button type="submit">Login</button>
-            </form>
-        </section>
+    <h1>Welcome to WeBill™</h1>
+    <p>Effortlessly manage your electricity meter readings using our app. You can download the app to start scanning your meter's QR code and get your electricity bills instantly.</p>
 
-        <!-- Meter Reading Submission -->
-        <section id="meter-section" style="display:none;">
-            <h2>Submit Meter Reading</h2>
-            <form id="meter-form">
-                <label for="meter-reading">Meter Reading:</label>
-                <input type="number" id="meter-reading" name="meter-reading" required>
+    <!-- Single button to download the app -->
+    <button id="appDownload">Download WeBill™ App</button>
 
-                <label for="meter-photo">Upload Meter Photo:</label>
-                <input type="file" id="meter-photo" name="meter-photo" accept="image/*" required>
+    <p>Or scan the QR code to download:</p>
+    
+    <!-- QR Code for App Download -->
+    <img src="./assets/qr-app-download.png" alt="Download App via QR Code" id="qrCode">
 
-                <button type="submit">Submit Reading</button>
-            </form>
-        </section>
+    <div id="info">
+        <p>For existing users, please use the app to log in and upload your meter readings.</p>
+        <p>New users can register directly in the app. The registration system will guide you through the process.</p>
+        <p>Need help? Contact us at <a href="mailto:support@cleanergy.jp">support@cleanergy.jp</a></p>
+    </div>
 
-        <!-- Profile Section -->
-        <section id="profile-section" style="display:none;">
-            <h2>Profile</h2>
-            <p><strong>Username:</strong> <span id="profile-username"></span></p>
-            <button id="view-bills">View Bills</button>
-            <button id="edit-profile">Edit Profile</button>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2024 Cleanergy™. All rights reserved.</p>
-    </footer>
-
-    <script src="scripts.js"></script>
+    <script src="./function/script.js"></script>
 </body>
+   <!-- Footer for copyright notice -->
+   <footer>
+    <p>&copy; <span id="currentYear"></span> Cleanergy™. <a href="./LICENSE">All rights reserved</a> by Kevin Manda.</p>
+</footer>
+
 </html>
