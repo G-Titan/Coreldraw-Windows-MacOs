@@ -24,7 +24,7 @@ To run the WeBill™ web application locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/webill.git
+   git clone https://github.com/G-Titan/Power.git
 
 
 
