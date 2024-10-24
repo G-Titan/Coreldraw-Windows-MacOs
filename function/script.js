@@ -1,7 +1,7 @@
 // Handle button click to download the app
 document.getElementById('appDownload').addEventListener('click', function() {
     // Redirect to the app download page (replace the link with the actual download URL)
-    window.location.href = 'https://your-app-download-link.com'; 
+    window.location.href = ''; 
 });
 
 document.addEventListener("DOMContentLoaded", function() {
