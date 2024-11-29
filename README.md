@@ -2,21 +2,21 @@
 
 WeBill™ is Cleanergy's web application designed to allow customers in Tatoeba City, Japan, to submit their monthly electricity meter readings and manage their billing information securely online. The platform enables users to upload a photo of their electricity meter, including the reading and QR code, to generate their electricity bills.
 
-## Features
+## Plans
 
-- **User Authentication**: Login functionality for registered Cleanergy™ customers.
-- **Meter Reading Submission**: Upload a photo of the electricity meter along with the reading.
-- **Profile Management**: View and edit user profiles.
-- **Billing Management**: Ability to view and download previous electricity bills.
-- **Secure Photo Upload**: Ensure photos include the meter's QR code for identification.
-- **Geolocation Support**: Capture location data when submitting meter readings.
+- **User Authentication**: Login functionality for registered Cleanergy™ customers.👍
+- **Meter Reading Submission**: Upload a photo of the electricity meter along with the reading.⏳
+- **Profile Management**: View and edit user profiles.👍
+- **Billing Management**: Ability to view and download previous electricity bills.⏳
+- **Secure Photo Upload**: Ensure photos include the meter's QR code for identification.⏳
+- **Geolocation Support**: Capture location data when submitting meter readings.⏳
 
 ## Technologies Used
 
-- **HTML5**: For the basic structure of the website.
-- **CSS3**: For styling and layout.
-- **JavaScript**: For interactive elements, including form handling and file uploads.
-- **Git**: For feature tracking of updates and fallbacks
+- **HTML5**: For the basic structure of the website.👍
+- **CSS3**: For styling and layout.👍
+- **JavaScript**: For interactive elements, including form handling and file uploads.👍
+- **Git**: For feature tracking of updates and fallbacks👍
 
 ## Installation
 
@@ -25,6 +25,13 @@ To run the WeBill™ web application locally:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/G-Titan/Power.git
+2. **Setup your environment**:
+   - add flutter to your environment path
+   - add git
+   - install android Studio
+   
+   ```bash
+   flutter run
 
 
 
